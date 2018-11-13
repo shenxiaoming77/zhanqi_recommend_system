@@ -1,7 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a78fe86-6f43-4ccd-a2f0-7f4c83063488" name="Default" comment="" />
+    <list default="true" id="5a78fe86-6f43-4ccd-a2f0-7f4c83063488" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/example/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/example/ml/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/example/mllib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/example/mllib_als_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model/example/streaming/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/shell/example/mllib_als_example.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/shell/example/wordcount.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/als.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/als.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/aft_survival_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/aft_survival_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/als_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/als_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/binarizer_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/binarizer_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/bisecting_k_means_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/bisecting_k_means_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/bucketed_random_projection_lsh_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/bucketed_random_projection_lsh_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/bucketizer_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/bucketizer_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/chi_square_test_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/chi_square_test_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/chisq_selector_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/chisq_selector_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/correlation_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/correlation_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/count_vectorizer_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/count_vectorizer_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/dataframe_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/dataframe_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/decision_tree_classification_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/decision_tree_classification_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/elementwise_product_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/elementwise_product_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/estimator_transformer_param_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/estimator_transformer_param_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/fpgrowth_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/fpgrowth_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/generalized_linear_regression_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/generalized_linear_regression_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/index_to_string_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/index_to_string_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/kmeans_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/kmeans_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/lda_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/lda_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/linear_regression_with_elastic_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/linear_regression_with_elastic_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/logistic_regression_summary_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/logistic_regression_summary_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/logistic_regression_with_elastic_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/logistic_regression_with_elastic_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/max_abs_scaler_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/max_abs_scaler_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/min_max_scaler_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/min_max_scaler_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/multiclass_logistic_regression_with_elastic_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/multiclass_logistic_regression_with_elastic_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/n_gram_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/n_gram_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/naive_bayes_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/naive_bayes_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/normalizer_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/normalizer_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/one_vs_rest_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/one_vs_rest_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/onehot_encoder_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/onehot_encoder_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/pca_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/pca_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/polynomial_expansion_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/polynomial_expansion_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/random_forest_classifier_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/random_forest_classifier_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/random_forest_regressor_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/random_forest_regressor_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/rformula_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/rformula_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/sql_transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/sql_transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/standard_scaler_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/standard_scaler_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/stopwords_remover_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/stopwords_remover_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/tf_idf_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/tf_idf_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/tokenizer_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/tokenizer_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/train_validation_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/train_validation_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/vector_assembler_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/vector_assembler_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/vector_indexer_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/vector_indexer_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/ml/word2vec_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/ml/word2vec_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/binary_classification_metrics_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/binary_classification_metrics_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/bisecting_k_means_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/bisecting_k_means_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/correlations.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/correlations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/correlations_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/correlations_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/decision_tree_classification_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/decision_tree_classification_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/decision_tree_regression_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/decision_tree_regression_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/elementwise_product_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/elementwise_product_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/fpgrowth_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/fpgrowth_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/gaussian_mixture_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/gaussian_mixture_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/gaussian_mixture_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/gaussian_mixture_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/gradient_boosting_classification_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/gradient_boosting_classification_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/gradient_boosting_regression_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/gradient_boosting_regression_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/hypothesis_testing_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/hypothesis_testing_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/hypothesis_testing_kolmogorov_smirnov_test_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/hypothesis_testing_kolmogorov_smirnov_test_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/isotonic_regression_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/isotonic_regression_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/k_means_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/k_means_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/kernel_density_estimation_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/kernel_density_estimation_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/latent_dirichlet_allocation_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/latent_dirichlet_allocation_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/linear_regression_with_sgd_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/linear_regression_with_sgd_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/logistic_regression_with_lbfgs_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/logistic_regression_with_lbfgs_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/multi_class_metrics_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/multi_class_metrics_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/multi_label_metrics_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/multi_label_metrics_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/naive_bayes_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/naive_bayes_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/normalizer_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/normalizer_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/pca_rowmatrix_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/pca_rowmatrix_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/power_iteration_clustering_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/power_iteration_clustering_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/random_forest_classification_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/random_forest_classification_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/random_forest_regression_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/random_forest_regression_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/random_rdd_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/random_rdd_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/ranking_metrics_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/ranking_metrics_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/recommendation_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/recommendation_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/regression_metrics_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/regression_metrics_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/sampled_rdds.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/sampled_rdds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/standard_scaler_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/standard_scaler_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/stratified_sampling_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/stratified_sampling_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/streaming_k_means_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/streaming_k_means_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/streaming_linear_regression_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/streaming_linear_regression_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/summary_statistics_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/summary_statistics_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/svd_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/svd_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/svm_with_sgd_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/svm_with_sgd_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/tf_idf_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/tf_idf_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/word2vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/word2vec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/mllib/word2vec_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/mllib/word2vec_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/pagerank.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/pagerank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/pi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/status_api_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/status_api_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/streaming/direct_kafka_wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/streaming/direct_kafka_wordcount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/streaming/flume_wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/streaming/flume_wordcount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/streaming/hdfs_wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/streaming/hdfs_wordcount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/streaming/kafka_wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/streaming/kafka_wordcount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/streaming/network_wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/streaming/network_wordcount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/streaming/network_wordjoinsentiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/streaming/network_wordjoinsentiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/streaming/queue_stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/streaming/queue_stream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/streaming/recoverable_network_wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/streaming/recoverable_network_wordcount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/streaming/sql_network_wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/streaming/sql_network_wordcount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/streaming/stateful_network_wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/streaming/stateful_network_wordcount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/wordcount.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/example/wordcount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/shell/example/als_example.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/shell/pi.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test/shell/example/pi.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/shell/status_api_demo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test/shell/example/status_api_demo.sh" afterDir="false" />
+    </list>
     <ignored path="zhanqi_recommend_system.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +138,56 @@
     <favorites_list name="zhanqi_recommend_system" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="mllib_als_example.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/model/example/mllib_als_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <folding>
+                <element signature="e#15#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ml_als_example.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/model/example/ml_als_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ml_als_example.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/shell/example/ml_als_example.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mllib_als_example.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/shell/example/mllib_als_example.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recommendation.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Anaconda3/Lib/site-packages/pyspark/mllib/recommendation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,11 +201,23 @@
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/model/wordcount.py" />
         <option value="$PROJECT_DIR$/test/model/status_api_demo.py" />
+        <option value="$PROJECT_DIR$/test/model/als_example.py" />
+        <option value="$PROJECT_DIR$/test/shell/als_example.sh" />
+        <option value="$PROJECT_DIR$/test/shell/wordcount.sh" />
+        <option value="$PROJECT_DIR$/test/shell/example/wordcount.sh" />
+        <option value="$PROJECT_DIR$/test/shell/example/pi.sh" />
+        <option value="$PROJECT_DIR$/test/model/example/als_example.py" />
+        <option value="$PROJECT_DIR$/test/shell/example/als_example.sh" />
+        <option value="$PROJECT_DIR$/test/shell/example/mllib_als_example.sh" />
+        <option value="$PROJECT_DIR$/test/model/example/mllib_als_example.py" />
       </list>
     </option>
   </component>
@@ -46,11 +227,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-116" />
+    <option name="y" value="51" />
+    <option name="width" value="1692" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -60,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,10 +251,50 @@
               <item name="zhanqi_recommend_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhanqi_recommend_system" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zhanqi_recommend_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhanqi_recommend_system" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhanqi_recommend_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhanqi_recommend_system" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhanqi_recommend_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhanqi_recommend_system" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhanqi_recommend_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhanqi_recommend_system" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="mllib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhanqi_recommend_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhanqi_recommend_system" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="shell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhanqi_recommend_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhanqi_recommend_system" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="shell" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -82,6 +305,15 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\zhanqi_recommend_system\test\model\example" />
+      <recent name="D:\workspace\zhanqi_recommend_system\test\shell\example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\zhanqi_recommend_system\test\model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,31 +464,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
+    <frame x="-4" y="-4" width="1688" height="929" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.0875" side_tool="true" visible="true" weight="0.2993421" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.08809524" side_tool="true" visible="true" weight="0.18357489" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.9125" visible="true" weight="0.2993421" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.91190475" visible="true" weight="0.18357489" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32894737" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17916666" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Changes" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,15 +506,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/model/example/kmeans.py</url>
+          <line>24</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/model/als.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/als.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/pi.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/pi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -290,119 +534,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/status_api_demo.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/status_api_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1863">
           <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/als.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/als.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/kmeans.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/logistic_regression.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/logistic_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/als.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/als.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/kmeans.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/logistic_regression.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/logistic_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/als.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/als.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/kmeans.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/logistic_regression.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/logistic_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1045">
           <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/wordcount.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/wordcount.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pyspark/sql/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/mllib/correlations.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pyspark/sql/session.py" />
+    <entry file="file://$PROJECT_DIR$/test/model/example/mllib/correlations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-138">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/wordcount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/shell/wordcount.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/pi.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/pi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -411,86 +628,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/status_api_demo.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/status_api_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
           <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/als.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/mllib/correlations_example.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/mllib/correlations_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-508">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#785#822#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pyspark/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pyspark/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/test/model/example/ml/fpgrowth_example.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/ml/fpgrowth_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#800#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/ml/lda_example.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/ml/lda_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/ml/correlation_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pyspark/ml/recommendation.py" />
+    <entry file="file://C:/Anaconda3/Lib/site-packages/pyspark/ml/recommendation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="405" column="8" selection-start-line="405" selection-start-column="8" selection-end-line="405" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/pyspark/profiler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="119" column="53" selection-start-line="119" selection-start-column="53" selection-end-line="119" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/shell/example/status_api_demo.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/pagerank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
           <folding>
-            <element signature="e#786#823#0" expanded="true" />
+            <element signature="e#1028#1065#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/ml/correlation_example.py">
+    <entry file="file://$PROJECT_DIR$/test/shell/example/wordcount.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/shell/example/pi.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/ml/als_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
           <folding>
             <element signature="e#785#822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/numpy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/logistic_regression.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/als_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        <state relative-caret-position="999">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pyspark/ml/recommendation.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/als.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8214">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        <state relative-caret-position="1356">
+          <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+          <folding>
+            <element signature="e#991#1028#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/ml/als_example.py">
+    <entry file="file://$PROJECT_DIR$/test/model/example/wordcount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/shell/example/als_example.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/logistic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#1093#1130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/mllib/binary_classification_metrics_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/mllib/svd_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#785#817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/PIL/ImagePath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/pyspark/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="580" column="17" lean-forward="true" selection-start-line="580" selection-start-column="17" selection-end-line="580" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/pyspark/rdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9098">
+          <caret line="185" column="8" selection-start-line="185" selection-start-column="8" selection-end-line="185" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/mllib/word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/pyspark/mllib/recommendation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/shell/example/ml_als_example.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/shell/example/mllib_als_example.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/ml_als_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/example/mllib_als_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="e#15#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
